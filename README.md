@@ -16,3 +16,10 @@
 - **Lenguaje de Programación**: Kotlin
 - **Entorno de Desarrollo**: Android Studio
 - **Base de Datos**: SQLite (o la que estés utilizando)
+
+## 📦 **Obtener el APK**
+
+El archivo APK de la aplicación se encuentra en la carpeta `Instalador` del repositorio. Para descargarlo, simplemente sigue estos pasos:
+
+1. Accede a la carpeta `Instalador` en el repositorio.
+2. Descarga el archivo APK desde allí.
