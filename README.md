@@ -15,7 +15,7 @@
 
 - **Lenguaje de Programación**: Kotlin
 - **Entorno de Desarrollo**: Android Studio
-- **Base de Datos**: SQLite (o la que estés utilizando)
+- **Base de Datos**: SQLite
 
 ## 📦 **Obtener el APK**
 
