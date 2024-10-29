@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Inicio de sesion</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="title_usuarios">Usuarios</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_inicio">Inicio</string>
+    <string name="falloActualizacion">No se pudo realizar la actualización. Intente de nuevo</string>
+    <string name="title_error">Error</string>
+    <string name="update_password">Actualizar contraseña</string>
+    <string name="confirmar_password">Confirmar contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="currently_password">Contraseña actual</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="permisos">Permisos:</string>
+    <string name="administrador">Administrador</string>
+    <string name="correo_electronico">Correo electronico</string>
+    <string name="usuario">Usuario</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="imagen_de_perfil">Imagen de perfil</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="correo_o_usuario">Correo o usuario</string>
+    <string name="instrucciones_password">Debe contener al menos 8 caracteres \nUna mayuscula \nUna minuscula \nUn numero</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+</resources>

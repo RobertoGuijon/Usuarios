@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/cardview_usuarios"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_usuario_card"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            tools:background="@android:color/holo_blue_bright"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/iv_usuario_card"
+            app:layout_constraintTop_toTopOf="@+id/iv_usuario_card">
+
+            <TextView
+                android:id="@+id/tv_nombre_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Nombre completo"
+                android:textSize="16dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_usuario_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Nombre de usuario"/>
+
+            <TextView
+                android:id="@+id/tv_correo_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Correo electrónico"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_permiso_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="Sí"
+            android:textOff="No"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

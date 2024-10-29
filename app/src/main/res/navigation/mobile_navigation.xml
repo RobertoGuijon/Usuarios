@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.robertoguijon.login.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_usuarios"
+        android:name="com.robertoguijon.login.ui.usuarios.UsuariosFragment"
+        android:label="@string/title_usuarios"
+        tools:layout="@layout/fragment_usuarios" >
+        <action
+            android:id="@+id/action_navigation_usuarios_to_navigation_error"
+            app:destination="@id/navigation_error" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.robertoguijon.login.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/navigation_error"
+        android:name="com.robertoguijon.login.ui.error.ErrorFragment"
+        android:label="@string/title_error"
+        tools:layout="@layout/fragment_error"/>
+
+</navigation>
